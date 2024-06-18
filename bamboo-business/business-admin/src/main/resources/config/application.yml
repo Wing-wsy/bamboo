@@ -1,4 +1,4 @@
-# 该配置文件优先级更高
+# 该配置文件优先级更高test
 spring:
   application:
     name: admin
