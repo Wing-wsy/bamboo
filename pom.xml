@@ -4,15 +4,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.panda.tech</groupId>
-    <artifactId>bamboo-technology</artifactId>
+    <artifactId>bamboo</artifactId>
     <version>1.0.RELEASE</version>
     <packaging>pom</packaging>
     <description>技术框架基础支持层</description>
     <modules>
-        <!-- 通用模块-为本技术框架提供支持（不可对外依赖） -->
-        <module>bamboo-common</module>
-        <!-- 核心模块-为上层框架或服务提供核心支持 -->
-        <module>bamboo-core</module>
+        <!-- 技术框架基础支持层（垂直支持）-->
+        <module>bamboo-technology</module>
+        <!-- 具体业务架构应用层（业务承接）-->
+        <module>bamboo-business</module>
     </modules>
 
     <properties>
