@@ -1,4 +1,4 @@
-package org.panda.business.admin.common.controller;
+package org.panda.business.admin.controller;
 
 import org.panda.bamboo.common.util.LogUtil;
 import org.springframework.web.bind.annotation.GetMapping;
