@@ -1,0 +1,7 @@
+# 该配置文件优先级更高
+spring:
+  application:
+    name: admin
+  profiles:
+    active: @profiles.active@
+

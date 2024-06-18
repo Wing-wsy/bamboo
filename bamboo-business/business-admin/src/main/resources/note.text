@@ -1,0 +1,15 @@
+1.启动项目保证jdk版本为11
+2.mac本机jdk安装位置：/Library/Java/JavaVirtualMachines
+  - 需要切换本机jdk版本，看 chapter-02/mac_jdk环境变量.md 笔记
+3.打jar包，Maven执行打包business-admin下的install命令
+4.本地使用 【java -jar business-admin-local.jar --spring.profiles.active=dev】（可以指定激活环境，不指定则使用默认）
+
+5.只要实现了 ContextInitializedBean 接口，实现了afterInitialized方法，并加入到Spring管理的Bean，
+在Spring容器Bean加载完成时会自动回调 afterInitialized方法
+
+6.查看 logback是否读取到配置文件代码：
+LoggerContext loggerContext = (LoggerContext) LoggerFactory.getILoggerFactory();
+StatusPrinter.print(loggerContext);
+
+7.启动jar包使用这个命令【java -jar business-admin-local.jar - -spring.profiles.active=prod】
+即可激活对应的日志打印级别

@@ -1,0 +1,115 @@
+2024-06-18 16:11:22.305 [main] INFO  [org.panda.business.admin.AdminApplication] - Starting AdminApplication using Java 11.0.23 on WangShaYoudeMBP with PID 10235 (/Users/wing/architect/test-loanover-system/loanover-business/business-admin/target/classes started by wing in /Users/wing/architect/test-loanover-system)
+2024-06-18 16:11:22.306 [main] INFO  [org.panda.business.admin.AdminApplication] - The following 1 profile is active: "local"
+2024-06-18 16:11:22.595 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 10001 (http)
+2024-06-18 16:11:22.598 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-10001"]
+2024-06-18 16:11:22.599 [main] INFO  [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2024-06-18 16:11:22.599 [main] INFO  [org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-06-18 16:11:22.626 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2024-06-18 16:11:22.626 [main] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 305 ms
+2024-06-18 16:11:22.724 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-10001"]
+2024-06-18 16:11:22.739 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 10001 (http) with context path ''
+2024-06-18 16:11:22.745 [main] INFO  [org.panda.business.admin.AdminApplication] - Started AdminApplication in 0.585 seconds (JVM running for 0.843)
+2024-06-18 16:11:36.988 [http-nio-10001-exec-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-18 16:11:36.989 [http-nio-10001-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2024-06-18 16:11:36.990 [http-nio-10001-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 1 ms
+2024-06-18 16:11:36.998 [http-nio-10001-exec-1] INFO  [o.p.b.admin.common.controller.TestLogController] - 这是info日志
+2024-06-18 16:11:49.742 [http-nio-10001-exec-3] INFO  [o.p.b.admin.common.controller.TestLogController] - 这是info日志
+2024-06-18 16:23:06.145 [main] INFO  [org.panda.business.admin.AdminApplication] - Starting AdminApplication using Java 11.0.23 on WangShaYoudeMBP with PID 10335 (/Users/wing/architect/test-loanover-system/loanover-business/business-admin/target/classes started by wing in /Users/wing/architect/test-loanover-system)
+2024-06-18 16:23:06.145 [main] INFO  [org.panda.business.admin.AdminApplication] - The following 1 profile is active: "local"
+2024-06-18 16:23:06.431 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 10001 (http)
+2024-06-18 16:23:06.434 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-10001"]
+2024-06-18 16:23:06.434 [main] INFO  [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2024-06-18 16:23:06.434 [main] INFO  [org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-06-18 16:23:06.462 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2024-06-18 16:23:06.462 [main] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 298 ms
+2024-06-18 16:23:06.554 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-10001"]
+2024-06-18 16:23:06.569 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 10001 (http) with context path ''
+2024-06-18 16:23:06.574 [main] INFO  [org.panda.business.admin.AdminApplication] - Started AdminApplication in 0.575 seconds (JVM running for 0.841)
+2024-06-18 16:47:15.206 [main] INFO  [org.panda.business.admin.AdminApplication] - Starting AdminApplication using Java 11.0.23 on WangShaoYoudeMacBook-Pro.local with PID 11213 (/Users/wing/architect/test-loanover-system/loanover-business/business-admin/target/classes started by wing in /Users/wing/architect/test-loanover-system)
+2024-06-18 16:47:15.207 [main] INFO  [org.panda.business.admin.AdminApplication] - The following 1 profile is active: "local"
+2024-06-18 16:47:15.503 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 10001 (http)
+2024-06-18 16:47:15.507 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-10001"]
+2024-06-18 16:47:15.507 [main] INFO  [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2024-06-18 16:47:15.507 [main] INFO  [org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-06-18 16:47:15.538 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2024-06-18 16:47:15.538 [main] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 316 ms
+2024-06-18 16:47:15.668 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-10001"]
+2024-06-18 16:47:15.678 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 10001 (http) with context path ''
+2024-06-18 16:47:21.123 [main] INFO  [org.panda.business.admin.Test1] - 这是info日志
+2024-06-18 16:47:23.680 [main] INFO  [org.panda.business.admin.AdminApplication] - Started AdminApplication in 8.616 seconds (JVM running for 12.547)
+2024-06-18 16:51:11.023 [main] INFO  [org.panda.business.admin.AdminApplication] - Starting AdminApplication using Java 11.0.23 on WangShaoYoudeMacBook-Pro.local with PID 11624 (/Users/wing/architect/test-loanover-system/loanover-business/business-admin/target/classes started by wing in /Users/wing/architect/test-loanover-system)
+2024-06-18 16:51:11.025 [main] INFO  [org.panda.business.admin.AdminApplication] - The following 1 profile is active: "local"
+2024-06-18 16:51:11.331 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 10001 (http)
+2024-06-18 16:51:11.335 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-10001"]
+2024-06-18 16:51:11.335 [main] INFO  [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2024-06-18 16:51:11.335 [main] INFO  [org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-06-18 16:51:11.373 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2024-06-18 16:51:11.373 [main] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 332 ms
+2024-06-18 16:51:11.495 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-10001"]
+2024-06-18 16:51:11.504 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 10001 (http) with context path ''
+2024-06-18 16:51:14.994 [main] INFO  [org.panda.business.admin.Test1] - 这是info日志
+2024-06-18 16:51:14.999 [main] INFO  [org.panda.business.admin.AdminApplication] - Started AdminApplication in 4.136 seconds (JVM running for 4.517)
+2024-06-18 16:51:34.388 [main] INFO  [org.panda.business.admin.AdminApplication] - Starting AdminApplication using Java 11.0.23 on WangShaoYoudeMacBook-Pro.local with PID 11629 (/Users/wing/architect/test-loanover-system/loanover-business/business-admin/target/classes started by wing in /Users/wing/architect/test-loanover-system)
+2024-06-18 16:51:34.389 [main] INFO  [org.panda.business.admin.AdminApplication] - The following 1 profile is active: "local"
+2024-06-18 16:51:34.725 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 10001 (http)
+2024-06-18 16:51:34.729 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-10001"]
+2024-06-18 16:51:34.729 [main] INFO  [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2024-06-18 16:51:34.729 [main] INFO  [org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-06-18 16:51:34.760 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2024-06-18 16:51:34.760 [main] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 355 ms
+2024-06-18 16:51:34.884 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-10001"]
+2024-06-18 16:51:34.894 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 10001 (http) with context path ''
+2024-06-18 16:51:40.968 [main] INFO  [org.panda.business.admin.Test1] - 这是info日志
+2024-06-18 16:51:41.986 [main] INFO  [org.panda.business.admin.AdminApplication] - Started AdminApplication in 7.749 seconds (JVM running for 8.132)
+2024-06-18 16:52:09.239 [http-nio-10001-exec-2] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-18 16:52:09.240 [http-nio-10001-exec-2] INFO  [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2024-06-18 16:52:09.240 [http-nio-10001-exec-2] INFO  [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 0 ms
+2024-06-18 16:52:09.249 [http-nio-10001-exec-2] INFO  [o.p.b.admin.common.controller.TestLogController] - 这是info日志
+2024-06-18 17:26:45.754 [main] INFO  [org.panda.business.admin.AdminApplication] - Starting AdminApplication using Java 11.0.23 on WangShaoYoudeMacBook-Pro.local with PID 12139 (/Users/wing/architect/hsp_study/test-loanover-system/loanover-business/business-admin/target/classes started by wing in /Users/wing/architect/hsp_study/test-loanover-system)
+2024-06-18 17:26:45.755 [main] INFO  [org.panda.business.admin.AdminApplication] - The following 1 profile is active: "local"
+2024-06-18 17:26:46.138 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 10001 (http)
+2024-06-18 17:26:46.141 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-10001"]
+2024-06-18 17:26:46.142 [main] INFO  [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2024-06-18 17:26:46.142 [main] INFO  [org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-06-18 17:26:46.179 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2024-06-18 17:26:46.179 [main] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 403 ms
+2024-06-18 17:26:46.307 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-10001"]
+2024-06-18 17:26:46.339 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 10001 (http) with context path ''
+2024-06-18 17:26:46.347 [main] INFO  [org.panda.business.admin.AdminApplication] - Started AdminApplication in 0.748 seconds (JVM running for 1.039)
+2024-06-18 17:26:57.444 [http-nio-10001-exec-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-18 17:26:57.444 [http-nio-10001-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2024-06-18 17:26:57.445 [http-nio-10001-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 1 ms
+2024-06-18 17:26:57.453 [http-nio-10001-exec-1] INFO  [o.p.b.admin.common.controller.TestLogController] - 这是info日志
+2024-06-18 17:33:15.786 [main] INFO  [org.panda.business.admin.AdminApplication] - Starting AdminApplication using Java 11.0.23 on WangShaoYoudeMacBook-Pro.local with PID 12231 (/Users/wing/architect/hsp_study/bamboo/loanover-business/business-admin/target/classes started by wing in /Users/wing/architect/hsp_study/bamboo)
+2024-06-18 17:33:15.787 [main] INFO  [org.panda.business.admin.AdminApplication] - The following 1 profile is active: "local"
+2024-06-18 17:33:16.085 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 10001 (http)
+2024-06-18 17:33:16.088 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-10001"]
+2024-06-18 17:33:16.089 [main] INFO  [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2024-06-18 17:33:16.089 [main] INFO  [org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-06-18 17:33:16.116 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2024-06-18 17:33:16.116 [main] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 306 ms
+2024-06-18 17:33:16.215 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-10001"]
+2024-06-18 17:33:16.230 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 10001 (http) with context path ''
+2024-06-18 17:33:16.235 [main] INFO  [org.panda.business.admin.AdminApplication] - Started AdminApplication in 0.597 seconds (JVM running for 0.854)
+2024-06-18 17:36:13.529 [main] INFO  [org.panda.business.admin.AdminApplication] - Starting AdminApplication using Java 11.0.23 on WangShaoYoudeMacBook-Pro.local with PID 12254 (/Users/wing/architect/hsp_study/bamboo/bamboo-business/business-admin/target/classes started by wing in /Users/wing/architect/hsp_study/bamboo)
+2024-06-18 17:36:13.530 [main] INFO  [org.panda.business.admin.AdminApplication] - The following 1 profile is active: "local"
+2024-06-18 17:36:13.820 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 10001 (http)
+2024-06-18 17:36:13.823 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-10001"]
+2024-06-18 17:36:13.824 [main] INFO  [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2024-06-18 17:36:13.824 [main] INFO  [org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-06-18 17:36:13.852 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2024-06-18 17:36:13.852 [main] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 308 ms
+2024-06-18 17:36:13.944 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-10001"]
+2024-06-18 17:36:13.952 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 10001 (http) with context path ''
+2024-06-18 17:36:13.957 [main] INFO  [org.panda.business.admin.AdminApplication] - Started AdminApplication in 0.569 seconds (JVM running for 0.851)
+2024-06-18 18:02:01.828 [main] INFO  [org.panda.business.admin.AdminApplication] - Starting AdminApplication using Java 11.0.23 on WangShaYoudeMBP with PID 12690 (/Users/wing/architect/bamboo/bamboo-business/business-admin/target/classes started by wing in /Users/wing/architect/bamboo)
+2024-06-18 18:02:01.831 [main] INFO  [org.panda.business.admin.AdminApplication] - The following 1 profile is active: "local"
+2024-06-18 18:02:02.129 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 10001 (http)
+2024-06-18 18:02:02.132 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-10001"]
+2024-06-18 18:02:02.132 [main] INFO  [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2024-06-18 18:02:02.132 [main] INFO  [org.apache.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-06-18 18:02:02.163 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2024-06-18 18:02:02.163 [main] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 318 ms
+2024-06-18 18:02:02.262 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-10001"]
+2024-06-18 18:02:02.271 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 10001 (http) with context path ''
+2024-06-18 18:02:02.276 [main] INFO  [org.panda.business.admin.AdminApplication] - Started AdminApplication in 0.594 seconds (JVM running for 0.858)
