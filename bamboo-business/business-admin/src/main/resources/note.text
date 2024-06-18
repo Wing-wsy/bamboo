@@ -12,4 +12,4 @@ LoggerContext loggerContext = (LoggerContext) LoggerFactory.getILoggerFactory();
 StatusPrinter.print(loggerContext);
 
 7.启动jar包使用这个命令【java -jar business-admin-local.jar - -spring.profiles.active=prod】
-即可激活对应的日志打印级别
+即可激活对应的日志打印级别 test
