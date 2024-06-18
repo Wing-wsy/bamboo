@@ -1,4 +1,0 @@
-2024-06-18 16:11:36.999 [http-nio-10001-exec-1] ERROR [o.p.b.admin.common.controller.TestLogController] - 这是error日志
-2024-06-18 16:11:49.743 [http-nio-10001-exec-3] ERROR [o.p.b.admin.common.controller.TestLogController] - 这是error日志
-2024-06-18 16:52:11.949 [http-nio-10001-exec-2] ERROR [o.p.b.admin.common.controller.TestLogController] - 这是error日志
-2024-06-18 17:26:57.454 [http-nio-10001-exec-1] ERROR [o.p.b.admin.common.controller.TestLogController] - 这是error日志

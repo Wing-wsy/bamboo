@@ -1,4 +1,0 @@
-2024-06-18 16:11:36.999 [http-nio-10001-exec-1] WARN  [o.p.b.admin.common.controller.TestLogController] - 这是warn日志
-2024-06-18 16:11:49.742 [http-nio-10001-exec-3] WARN  [o.p.b.admin.common.controller.TestLogController] - 这是warn日志
-2024-06-18 16:52:09.249 [http-nio-10001-exec-2] WARN  [o.p.b.admin.common.controller.TestLogController] - 这是warn日志
-2024-06-18 17:26:57.454 [http-nio-10001-exec-1] WARN  [o.p.b.admin.common.controller.TestLogController] - 这是warn日志
