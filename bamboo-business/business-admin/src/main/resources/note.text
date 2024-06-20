@@ -13,3 +13,5 @@ StatusPrinter.print(loggerContext);
 
 7.启动jar包使用这个命令【java -jar business-admin-local.jar - -spring.profiles.active=prod】
 即可激活对应的日志打印级别 test
+
+8.系统启动调用时机，参考看 Spring_hm_1.md 笔记 1.5.7 Spring注解的解析原理 的图

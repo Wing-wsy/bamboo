@@ -1,0 +1,26 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  org.panda.business.admin.controller.TestAutoConfig,\
+  org.panda.business.admin.context.processor.MyBeanFactoryPostProcessor,\
+  org.panda.business.admin.context.processor.MyBeanFactoryPostProcessor1,\
+  org.panda.business.admin.context.processor.MyImportBeanDefinitionRegistrar,\
+  org.panda.business.admin.context.processor.MyImportBeanDefinitionRegistrar1,\
+  org.panda.business.admin.context.processor.MyBeanPostProcessor
+
+# Initializers
+org.springframework.context.ApplicationContextInitializer=\
+org.panda.business.admin.context.contextInitializer.MyApplicationContextInitializer
+
+# My Application Listeners
+org.springframework.context.ApplicationListener=\
+  org.panda.business.admin.context.Listener.event.MyListenerByAllEvent,\
+  org.panda.business.admin.context.Listener.event.MyListenerByStartingEvent,\
+  org.panda.business.admin.context.Listener.event.MyListenerByStartedEvent,\
+  org.panda.business.admin.context.Listener.event.MyListenerByContextInitializedEvent,\
+  org.panda.business.admin.context.Listener.event.MyListenerByEnvironmentPreparedEvent,\
+  org.panda.business.admin.context.Listener.event.MyListenerByPreparedEvent,\
+  org.panda.business.admin.context.Listener.event.MyListenerByReadyEvent
+
+
+# My Run Listeners
+org.springframework.boot.SpringApplicationRunListener=\
+  org.panda.business.admin.context.Listener.MySpringFactoryApplicationRunListener
