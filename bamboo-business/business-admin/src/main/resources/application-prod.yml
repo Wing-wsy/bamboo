@@ -1,2 +1,6 @@
 server:
   port: 10005
+
+knife4j:
+  # 生产关闭 Swagger
+  enable: false

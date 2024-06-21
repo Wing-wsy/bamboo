@@ -10,6 +10,6 @@ import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
 public class MyBeanFactoryPostProcessor1 implements BeanFactoryPostProcessor {
     @Override
     public void postProcessBeanFactory(ConfigurableListableBeanFactory beanFactory) throws BeansException {
-        System.out.println("【Start-Up】【BeanFactoryPostProcessor】MyBeanFactoryPostProcessor1执行了...");
+//        System.out.println("【Start-Up】【BeanFactoryPostProcessor】MyBeanFactoryPostProcessor1执行了...");
     }
 }

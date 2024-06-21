@@ -10,6 +10,6 @@ public class MyListenerByReadyEvent implements ApplicationListener<ApplicationRe
 
     @Override
     public void onApplicationEvent(ApplicationReadyEvent event) {
-        System.out.println("【Start-Up】【指定事件】监听 Ready 事件...执行了");
+//        System.out.println("【Start-Up】【指定事件】监听 Ready 事件...执行了");
     }
 }

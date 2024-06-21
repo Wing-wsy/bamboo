@@ -10,6 +10,6 @@ import org.springframework.context.ConfigurableApplicationContext;
 public class MyApplicationContextInitializer implements ApplicationContextInitializer {
     @Override
     public void initialize(ConfigurableApplicationContext applicationContext) {
-        System.out.println("【Start-Up】【ApplicationContextInitializer】MyApplicationContextInitializer执行了...");
+//        System.out.println("【Start-Up】【ApplicationContextInitializer】MyApplicationContextInitializer执行了...");
     }
 }

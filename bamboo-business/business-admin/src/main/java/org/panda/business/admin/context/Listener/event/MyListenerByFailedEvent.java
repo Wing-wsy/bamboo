@@ -10,6 +10,6 @@ public class MyListenerByFailedEvent implements ApplicationListener<ApplicationF
 
     @Override
     public void onApplicationEvent(ApplicationFailedEvent event) {
-        System.out.println("【Start-Up】【指定事件】监听 Failed 事件...执行了");
+//        System.out.println("【Start-Up】【指定事件】监听 Failed 事件...执行了");
     }
 }

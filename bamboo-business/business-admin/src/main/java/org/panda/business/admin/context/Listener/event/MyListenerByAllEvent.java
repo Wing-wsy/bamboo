@@ -11,6 +11,6 @@ public class MyListenerByAllEvent implements ApplicationListener {
 
     @Override
     public void onApplicationEvent(ApplicationEvent event) {
-        System.out.println("【Start-Up】【全部事件】MyListenerByAllEvent监听全部事件执行了...");
+//        System.out.println("【Start-Up】【全部事件】MyListenerByAllEvent监听全部事件执行了...");
     }
 }

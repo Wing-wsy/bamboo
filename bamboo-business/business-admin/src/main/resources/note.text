@@ -6,12 +6,15 @@
 
 5.只要实现了 ContextInitializedBean 接口，实现了afterInitialized方法，并加入到Spring管理的Bean，
 在Spring容器Bean加载完成时会自动回调 afterInitialized方法
-
 6.查看 logback是否读取到配置文件代码：
 LoggerContext loggerContext = (LoggerContext) LoggerFactory.getILoggerFactory();
 StatusPrinter.print(loggerContext);
-
 7.启动jar包使用这个命令【java -jar business-admin-local.jar - -spring.profiles.active=prod】
 即可激活对应的日志打印级别 test
-
 8.系统启动调用时机，参考看 Spring_hm_1.md 笔记 1.5.7 Spring注解的解析原理 的图
+9.增加Swagger配置【配置类：Knife4jConfiguration，文档首页：http://localhost:10011/doc.html#/home】
+  - 开启 Swagger 模块排序，@ApiSupport(order = 1)，值越小排越前
+  - 开启 Swagger API排序，@ApiOperationSupport(order = 1)，值越小排越前
+  - 如果需要自定义首页，看这：https://doc.xiaominfo.com/docs/features/customHome
+  - 如果需要自定义尾部，看这：https://doc.xiaominfo.com/docs/features/customFooter
+

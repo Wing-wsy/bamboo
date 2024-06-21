@@ -1,5 +1,4 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  org.panda.business.admin.controller.TestAutoConfig,\
   org.panda.business.admin.context.processor.MyBeanFactoryPostProcessor,\
   org.panda.business.admin.context.processor.MyBeanFactoryPostProcessor1,\
   org.panda.business.admin.context.processor.MyImportBeanDefinitionRegistrar,\

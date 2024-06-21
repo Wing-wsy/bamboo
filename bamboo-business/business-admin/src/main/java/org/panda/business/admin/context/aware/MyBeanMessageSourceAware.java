@@ -17,7 +17,7 @@ public class MyBeanMessageSourceAware implements MessageSourceAware {
     @Override
     public void setMessageSource(MessageSource messageSource) {
         this.messageSource = messageSource;
-        System.out.println("【Start-Up】【Aware】我的 MessageSourceAware 执行了...");
+//        System.out.println("【Start-Up】【Aware】我的 MessageSourceAware 执行了...");
     }
 
     public void doSomething() {

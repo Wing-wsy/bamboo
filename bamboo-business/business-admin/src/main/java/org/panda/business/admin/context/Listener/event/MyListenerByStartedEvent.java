@@ -10,6 +10,6 @@ public class MyListenerByStartedEvent implements ApplicationListener<Application
 
     @Override
     public void onApplicationEvent(ApplicationStartedEvent event) {
-        System.out.println("【Start-Up】【指定事件】监听 Started 事件...执行了");
+//        System.out.println("【Start-Up】【指定事件】监听 Started 事件...执行了");
     }
 }

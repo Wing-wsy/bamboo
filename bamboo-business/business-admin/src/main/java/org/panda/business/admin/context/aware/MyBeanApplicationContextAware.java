@@ -20,7 +20,7 @@ public class MyBeanApplicationContextAware implements InitializingBean, Applicat
     @Override
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
         this.applicationContext = applicationContext;
-        System.out.println("【Start-Up】【Aware】我的 MyBeanApplicationContextAware 执行了...");
+//        System.out.println("【Start-Up】【Aware】我的 MyBeanApplicationContextAware 执行了...");
     }
 
     public void doSomething() {
@@ -32,7 +32,7 @@ public class MyBeanApplicationContextAware implements InitializingBean, Applicat
     /** spring初始化bean的时候，如果bean实现了InitializingBean接口，会自动调用afterPropertiesSet方法 */
     @Override
     public void afterPropertiesSet() throws Exception {
-        System.out.println("【Start-Up】【afterPropertiesSet】MyBeanApplicationContextAware-afterPropertiesSet方法调用");
+//        System.out.println("【Start-Up】【afterPropertiesSet】MyBeanApplicationContextAware-afterPropertiesSet方法调用");
     }
 
 }

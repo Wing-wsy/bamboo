@@ -23,43 +23,43 @@ public class MySpringFactoryApplicationRunListener implements SpringApplicationR
     /** 对应 ApplicationStartingEvent 事件 */
     @Override
     public void starting(ConfigurableBootstrapContext bootstrapContext) {
-        System.out.println("【Start-Up】自定义创建执行监听器的类...【starting】");
+//        System.out.println("【Start-Up】自定义创建执行监听器的类...【starting】");
     }
 
     /** 对应 ApplicationEnvironmentPreparedEvent 事件 */
     @Override
     public void environmentPrepared(ConfigurableBootstrapContext bootstrapContext,
                                     ConfigurableEnvironment environment) {
-        System.out.println("【Start-Up】自定义创建执行监听器的类...【environmentPrepared】");
+//        System.out.println("【Start-Up】自定义创建执行监听器的类...【environmentPrepared】");
     }
 
     /** 对应 ApplicationContextInitializedEvent 事件 */
     @Override
     public void contextPrepared(ConfigurableApplicationContext context) {
-        System.out.println("【Start-Up】自定义创建执行监听器的类...【contextPrepared】");
+//        System.out.println("【Start-Up】自定义创建执行监听器的类...【contextPrepared】");
     }
 
     /** 对应 ApplicationPreparedEvent 事件 */
     @Override
     public void contextLoaded(ConfigurableApplicationContext context) {
-        System.out.println("【Start-Up】自定义创建执行监听器的类...【contextLoaded】");
+//        System.out.println("【Start-Up】自定义创建执行监听器的类...【contextLoaded】");
     }
 
     /** 对应 ApplicationStartedEvent 事件 */
     @Override
     public void started(ConfigurableApplicationContext context) {
-        System.out.println("【Start-Up】自定义创建执行监听器的类...【started】");
+//        System.out.println("【Start-Up】自定义创建执行监听器的类...【started】");
     }
 
     /** 对应 ApplicationReadyEvent 事件 */
     @Override
     public void running(ConfigurableApplicationContext context) {
-        System.out.println("【Start-Up】自定义创建执行监听器的类...【running】");
+//        System.out.println("【Start-Up】自定义创建执行监听器的类...【running】");
     }
 
     /** 对应 ApplicationFailedEvent 事件 */
     @Override
     public void failed(ConfigurableApplicationContext context, Throwable exception) {
-        System.out.println("【Start-Up】自定义创建执行监听器的类...【failed】");
+//        System.out.println("【Start-Up】自定义创建执行监听器的类...【failed】");
     }
 }

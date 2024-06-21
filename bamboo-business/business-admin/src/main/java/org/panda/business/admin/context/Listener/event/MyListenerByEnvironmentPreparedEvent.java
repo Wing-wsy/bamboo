@@ -10,6 +10,6 @@ public class MyListenerByEnvironmentPreparedEvent implements ApplicationListener
 
     @Override
     public void onApplicationEvent(ApplicationEnvironmentPreparedEvent event) {
-        System.out.println("【Start-Up】【指定事件】监听 EnvironmentPrepared 事件...执行了");
+//        System.out.println("【Start-Up】【指定事件】监听 EnvironmentPrepared 事件...执行了");
     }
 }

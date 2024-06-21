@@ -1,0 +1,37 @@
+package org.panda.business.admin.modules;
+
+import com.github.xiaoymin.knife4j.annotations.ApiOperationSupport;
+import com.github.xiaoymin.knife4j.annotations.ApiSupport;
+import io.swagger.annotations.Api;
+import org.panda.tech.core.web.restful.RestfulResult;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+/**
+ * 后台管理系统登录控制器
+ *
+ * @author fangen
+ * @since 2023-05-27
+ **/
+@Api(tags = "系统登录控制器")
+@ApiSupport(order = 1)
+@RestController
+public class LoginController {
+
+    @ApiOperationSupport(order = 1)
+    @PostMapping("/login")
+    public RestfulResult login(@RequestParam String username, @RequestParam String password,
+                               @RequestParam(required = false) String loginMode) {
+        // 用于安全认证登录引导，无需处理任何逻辑
+        return RestfulResult.success(username + password + loginMode);
+    }
+
+    @ApiOperationSupport(order = 2)
+    @PostMapping("/logout")
+    public RestfulResult logout() {
+        // 用于登出流程引导，无需处理任何逻辑
+        return RestfulResult.success();
+    }
+
+}

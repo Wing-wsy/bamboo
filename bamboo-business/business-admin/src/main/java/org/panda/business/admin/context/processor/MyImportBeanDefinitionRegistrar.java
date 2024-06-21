@@ -14,7 +14,7 @@ import org.springframework.core.type.AnnotationMetadata;
 public class MyImportBeanDefinitionRegistrar implements ImportBeanDefinitionRegistrar {
     public void registerBeanDefinitions(AnnotationMetadata importingClassMetadata, BeanDefinitionRegistry registry,
                                         BeanNameGenerator importBeanNameGenerator) {
-        System.out.println("【Start-Up】【ImportBeanDefinitionRegistrar】MyImportBeanDefinitionRegistrar执行了...");
+//        System.out.println("【Start-Up】【ImportBeanDefinitionRegistrar】MyImportBeanDefinitionRegistrar执行了...");
         // doSomething
         // beanDefinition.setBeanClassName(OtherBean.class.getName());
         // registry.registerBeanDefinition("otherBean",beanDefinition);

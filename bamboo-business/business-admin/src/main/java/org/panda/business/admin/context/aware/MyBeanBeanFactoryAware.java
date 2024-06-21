@@ -19,7 +19,7 @@ public class MyBeanBeanFactoryAware implements BeanFactoryAware {
     @Override
     public void setBeanFactory(BeanFactory beanFactory) throws BeansException {
         this.beanFactory = beanFactory;
-        System.out.println("【Start-Up】【Aware】我的 BeanFactoryAware 执行了...");
+//        System.out.println("【Start-Up】【Aware】我的 BeanFactoryAware 执行了...");
     }
 
     public void doSomething() {

@@ -10,6 +10,6 @@ public class MyListenerByContextInitializedEvent implements ApplicationListener<
 
     @Override
     public void onApplicationEvent(ApplicationContextInitializedEvent event) {
-        System.out.println("【Start-Up】【指定事件】监听 ContextInitialized 事件...执行了");
+//        System.out.println("【Start-Up】【指定事件】监听 ContextInitialized 事件...执行了");
     }
 }
