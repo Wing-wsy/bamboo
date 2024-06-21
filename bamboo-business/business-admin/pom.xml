@@ -30,18 +30,18 @@
 <!--            <artifactId>bamboo-security</artifactId>-->
 <!--            <version>${technology.version}</version>-->
 <!--        </dependency>-->
-<!--        &lt;!&ndash; 技术框架mybatis扩展支持 &ndash;&gt;-->
-<!--        <dependency>-->
-<!--            <groupId>org.panda.tech</groupId>-->
-<!--            <artifactId>bamboo-data-mybatis</artifactId>-->
-<!--            <version>${technology.version}</version>-->
-<!--        </dependency>-->
-<!--        &lt;!&ndash; MySQL连接驱动 &ndash;&gt;-->
-<!--        <dependency>-->
-<!--            <groupId>mysql</groupId>-->
-<!--            <artifactId>mysql-connector-java</artifactId>-->
-<!--            <scope>runtime</scope>-->
-<!--        </dependency>-->
+        <!-- 技术框架mybatis扩展支持 -->
+        <dependency>
+            <groupId>org.panda.tech</groupId>
+            <artifactId>bamboo-data-mybatis</artifactId>
+            <version>${technology.version}</version>
+        </dependency>
+        <!-- MySQL连接驱动 -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <scope>runtime</scope>
+        </dependency>
 <!--        &lt;!&ndash; 监控和管理应用程序的生产级特性 &ndash;&gt;-->
 <!--        <dependency>-->
 <!--            <groupId>org.springframework.boot</groupId>-->
