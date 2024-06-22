@@ -4,4 +4,8 @@ spring:
     name: admin
   profiles:
     active: @profiles.active@
+# 开启日志打印
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 

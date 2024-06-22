@@ -3,7 +3,7 @@ package org.panda.business.admin.modules.system.service.impl;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.apache.commons.collections4.CollectionUtils;
 import org.panda.bamboo.common.constant.Commons;
-//import org.panda.business.admin.application.resolver.MessageSourceResolver;
+import org.panda.business.admin.application.resolver.MessageSourceResolver;
 import org.panda.business.admin.modules.system.api.vo.MenuVO;
 import org.panda.business.admin.modules.system.service.SysRoleService;
 import org.panda.business.admin.modules.system.service.dto.SysRoleDto;
@@ -30,8 +30,8 @@ import java.util.List;
 @Transactional
 public class SysRoleServiceImpl extends ServiceImpl<SysRoleMapper, SysRole> implements SysRoleService {
 
-//    @Autowired
-//    private MessageSourceResolver messageSourceResolver;
+    @Autowired
+    private MessageSourceResolver messageSourceResolver;
 
     @Autowired
     private SysMenuMapper menuDao;
@@ -88,8 +88,8 @@ public class SysRoleServiceImpl extends ServiceImpl<SysRoleMapper, SysRole> impl
     public int deleteRole(Integer roleId) throws BusinessException {
         // 校验该角色是否绑定的有用户或菜单权限资源
         if (this.baseMapper.delRoleVerify(roleId)) {
-//            String errorMessage = messageSourceResolver.findI18nMessage("admin.system.role.error_del");
-//            throw new BusinessException(errorMessage);
+            String errorMessage = messageSourceResolver.findI18nMessage("admin.system.role.error_del");
+            throw new BusinessException(errorMessage);
         }
         return this.baseMapper.deleteRole(roleId);
     }

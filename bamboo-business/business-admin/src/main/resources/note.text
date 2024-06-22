@@ -17,4 +17,4 @@ StatusPrinter.print(loggerContext);
   - 开启 Swagger API排序，@ApiOperationSupport(order = 1)，值越小排越前
   - 如果需要自定义首页，看这：https://doc.xiaominfo.com/docs/features/customHome
   - 如果需要自定义尾部，看这：https://doc.xiaominfo.com/docs/features/customFooter
-
+10.国际化，也可以使用指定语言方式，看 findI18nMessage方法

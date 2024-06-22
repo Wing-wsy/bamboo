@@ -20,6 +20,10 @@ public class ContextInitializedBeanListener implements ApplicationListener<Conte
     @Override
     public void onApplicationEvent(ContextRefreshedEvent event) {
         ApplicationContext context = event.getApplicationContext();
+        /*String[] names = context.getBeanDefinitionNames();
+        for (String name : names) {
+            System.out.println("加载："+ name);
+        }*/
         Map<String, ContextInitializedBean> beans = context.getBeansOfType(ContextInitializedBean.class);
         Map<ContextInitializedBean, ContextInitializedBean> map = new HashMap<>();
         for (ContextInitializedBean bean : beans.values()) {
