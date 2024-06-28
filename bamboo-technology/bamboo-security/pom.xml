@@ -18,7 +18,7 @@
             <artifactId>bamboo-core</artifactId>
             <version>${bamboo-core.version}</version>
         </dependency>
-<!--        <dependency>-->
+<!--        <dependency> 这是还没加入security前版本-->
 <!--            <groupId>org.springframework.boot</groupId>-->
 <!--            <artifactId>spring-boot-starter-security</artifactId>-->
 <!--        </dependency>-->
