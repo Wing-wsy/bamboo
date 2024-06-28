@@ -77,11 +77,11 @@ knife4j:
   production: false
   # 开启Swagger的Basic认证功能,默认是false
   basic:
-    enable: true
+    # enable: true
     # Basic认证用户名
-    username: test
+    #username: test
     # Basic认证密码
-    password: 123
+    #password: 123
   setting:
     # 禁用调试功能 true不禁用，false禁用
     enable-debug: true

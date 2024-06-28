@@ -13,6 +13,7 @@ StatusPrinter.print(loggerContext);
 即可激活对应的日志打印级别 test
 8.系统启动调用时机，参考看 Spring_hm_1.md 笔记 1.5.7 Spring注解的解析原理 的图
 9.增加Swagger配置【配置类：Knife4jConfiguration，文档首页：http://localhost:10011/doc.html#/home】
+  - 访问如果需要密码才能访问看application-local.yml配置有
   - 开启 Swagger 模块排序，@ApiSupport(order = 1)，值越小排越前
   - 开启 Swagger API排序，@ApiOperationSupport(order = 1)，值越小排越前
   - 如果需要自定义首页，看这：https://doc.xiaominfo.com/docs/features/customHome
