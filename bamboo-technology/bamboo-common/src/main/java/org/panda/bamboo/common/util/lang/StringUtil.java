@@ -6,7 +6,6 @@ import org.apache.commons.lang3.EnumUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.panda.bamboo.common.constant.basic.Strings;
 import org.panda.bamboo.common.util.LogUtil;
-import org.panda.bamboo.common.util.clazz.BeanUtil;
 import org.panda.bamboo.common.util.date.DateUtil;
 import org.panda.bamboo.common.util.date.TemporalUtil;
 import org.springframework.util.AntPathMatcher;
@@ -744,31 +743,6 @@ public class StringUtil {
         return s1.equals(s);
     }
 
-    /**
-     * 按照标准格式解析指定字符串，转换为Map。标准格式即形如key1=value1,key2=value2,...
-     *
-     * @param s                          字符串
-     * @param convertStaticPropertyValue 是否转换形如@truenewx.core.util.DateUtil@SHORT_DATE_PATTERN的静态属性值
-     * @return 转换形成的Map
-     */
-    public static Map<String, String> toMapByStandard(String s,
-            boolean convertStaticPropertyValue) {
-        Map<String, String> map = new HashMap<>();
-        if (StringUtils.isNotEmpty(s)) {
-            String[] pairs = s.split(",");
-            for (String pair : pairs) {
-                int index = pair.indexOf('=');
-                if (index > 0) {
-                    String value = pair.substring(index + 1).trim();
-                    if (convertStaticPropertyValue && value.startsWith("@")) {
-                        value = (String) BeanUtil.getStaticPropertyExpressionValue(value);
-                    }
-                    map.put(pair.substring(0, index).trim(), value);
-                }
-            }
-        }
-        return map;
-    }
 
     /**
      * 获取指定的基本名称、语言环境下的资源文件中的指定关键字对应的文本

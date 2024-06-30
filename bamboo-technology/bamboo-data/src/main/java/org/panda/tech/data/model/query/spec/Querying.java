@@ -13,7 +13,12 @@ import org.panda.tech.data.model.query.QueryModel;
 
 import java.net.URLDecoder;
 import java.nio.charset.StandardCharsets;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Set;
 
 /**
  * 分页查询条件。通过创建子类附带更多的查询条件

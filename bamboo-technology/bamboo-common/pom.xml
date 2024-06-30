@@ -23,12 +23,6 @@
             <artifactId>spring-boot-starter-aop</artifactId>
         </dependency>
 
-        <!-- Freemarker模版引擎 -->
-        <dependency>
-            <groupId>org.freemarker</groupId>
-            <artifactId>freemarker</artifactId>
-        </dependency>
-
         <!-- Java基本对象处理工具类库 -->
         <dependency>
             <groupId>org.apache.commons</groupId>

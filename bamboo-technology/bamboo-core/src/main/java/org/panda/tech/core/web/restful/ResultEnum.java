@@ -22,5 +22,5 @@ public enum ResultEnum implements Result {
 
     private int code;
     private String message;
-
+    
 }
