@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: admin
+  profiles:
+    active: @profiles.active@
+server:
+  port: 10006
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml

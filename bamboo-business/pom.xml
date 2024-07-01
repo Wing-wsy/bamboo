@@ -11,6 +11,8 @@
     <modules>
         <!-- 后台管理系统 -->
         <module>business-admin</module>
+        <!-- 小贷APP系统 -->
+        <module>business-app</module>
     </modules>
 
     <properties>
