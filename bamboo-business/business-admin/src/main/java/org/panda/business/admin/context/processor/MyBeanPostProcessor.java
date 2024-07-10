@@ -1,7 +1,7 @@
 package org.panda.business.admin.context.processor;
 
 import org.panda.business.admin.context.aware.MyBeanApplicationContextAware;
-import org.panda.business.admin.test.controller.TestController;
+import org.panda.business.admin.modules.test.TestController;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;
 

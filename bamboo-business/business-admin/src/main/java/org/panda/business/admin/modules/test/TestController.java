@@ -1,9 +1,10 @@
-package org.panda.business.admin.test.controller;
+package org.panda.business.admin.modules.test;
 
+
+import cn.hutool.core.lang.Dict;
+import cn.hutool.core.util.StrUtil;
 import com.github.xiaoymin.knife4j.annotations.ApiOperationSupport;
 import com.github.xiaoymin.knife4j.annotations.ApiSupport;
-import com.github.xiaoymin.knife4j.annotations.DynamicParameter;
-import com.github.xiaoymin.knife4j.annotations.DynamicResponseParameters;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
@@ -26,7 +27,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.context.ServletContextAware;
 
 import javax.servlet.ServletContext;
-import java.util.HashMap;
+import java.util.Map;
 
 /**
  * @author wing
@@ -59,6 +60,32 @@ public class TestController implements InitializingBean, ServletContextAware, Ap
     public ResponseEntity<String> sayHi(@RequestParam(value = "name",defaultValue = "小王")String name){
         return ResponseEntity.ok("Hi:"+name);
     }
+
+    /**
+     * 测试方法
+     *
+     * @param who 测试参数
+     * @return {@link Dict}
+     */
+    @ApiOperationSupport(order = 3)
+    @ApiOperation(value = "测试aop日志打印")
+    @GetMapping("/test")
+    public Dict test(String who) {
+        return Dict.create().set("who", StrUtil.isBlank(who) ? "me" : who);
+    }
+
+    /**
+     *  测试post json方法
+     * @param map 请求的json参数
+     * @return {@link Dict}
+     */
+    @ApiOperationSupport(order = 4)
+    @ApiOperation(value = "测试aop日志打印-json")
+    @PostMapping("/testJson")
+    public Dict testJson(@RequestBody Map<String, Object> map) {
+        return Dict.create().set("json", map);
+    }
+
 
     /*@PostMapping("/createOrder")
     @ApiImplicitParam(name = "map",value = "集合",required = false)
